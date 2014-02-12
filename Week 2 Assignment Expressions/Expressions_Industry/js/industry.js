@@ -1,3 +1,5 @@
+
+//This should tell the user how many steps it would take to walk a perimeter.
 //Variables will be listed here.
 
 var length = prompt("Please input the length in feet. \nRemember to round down.");//Prompting for length of area.
