@@ -11,6 +11,6 @@ var result = 2 * (Number(length) + Number(width)) / Number(steps); //Calculation
 alert ("The estimated number of steps is "+result)//Declaring the result of the above line and giving it to the user in alert format.
 
 
-console.log(result);
+console.log(result); //Prints the result variable to the console.
 
 //My apologies if I'm a little heavy on the parentheses, but it was the only way I could get this to work.
