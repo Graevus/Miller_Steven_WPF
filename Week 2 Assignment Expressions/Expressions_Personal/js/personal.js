@@ -9,4 +9,4 @@ var pie= 0.785; //Declaring variable for pie divided by 4 to make my life easier
 var bore2= bore*bore;//Declaring variable to square bore size.
 
 var result=[(pie*bore2)*stroke]*cyl//Declaring variable to calculate the displacement with given inputs.
-console.log ("The displacement of your engine is "+result+" cubic inches.");
+console.log ("The displacement of your engine is "+ Math.round(result) +" cubic inches.");
