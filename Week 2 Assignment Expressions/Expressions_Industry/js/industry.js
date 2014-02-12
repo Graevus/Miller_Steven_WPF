@@ -12,3 +12,5 @@ alert ("The estimated number of steps is "+result)//Declaring the result of the 
 
 
 console.log(result);
+
+//My apologies if I'm a little heavy on the parentheses, but it was the only way I could get this to work.
