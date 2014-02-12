@@ -8,5 +8,7 @@ var steps = prompt("Please input your walking stride in feet. \nRemember to roun
 var result = 2 * (Number(length) + Number(width)) / Number(steps); //Calculation for the perimeter will be divided by the stride length here.
 
 
-alert ("The estimated number of steps is "+result)
+alert ("The estimated number of steps is "+result)//Declaring the result of the above line and giving it to the user in alert format.
+
+
 console.log(result);
