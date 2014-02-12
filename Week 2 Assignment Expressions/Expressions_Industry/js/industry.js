@@ -7,4 +7,5 @@ var steps = prompt("please input your walking stride in feet here. \nRemember to
 //Calculation for the perimeter will be divided by the stride length here.
 var result = 2 * (Number(length) + Number(width)) / Number(steps);
 
+alert ("The estimated number of steps is "+result)
 console.log(result);
