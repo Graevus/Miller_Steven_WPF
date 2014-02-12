@@ -4,8 +4,9 @@ var length = prompt("Please input the length in feet. \nRemember to round down."
 var width = prompt("Please input the width in feet. \nRemember to round down."); //Prompting for width of area.
 var steps = prompt("Please input your walking stride in feet. \nRemember to round down."); //Prompting for stride length.
 
-//Calculation for the perimeter will be divided by the stride length here.
-var result = 2 * (Number(length) + Number(width)) / Number(steps);
+
+var result = 2 * (Number(length) + Number(width)) / Number(steps); //Calculation for the perimeter will be divided by the stride length here.
+
 
 alert ("The estimated number of steps is "+result)
 console.log(result);
