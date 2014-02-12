@@ -7,8 +7,9 @@ var stroke=prompt("Please input the stroke (in inches) of the crankshaft.\nThe s
 var cyl=prompt("Please input the number of cylinders the engine has.");//Prompting user to input the number of cylinders in the engine.
 var pie= 0.785; //Declaring variable for pie divided by 4 to make my life easier.
 var bore2= bore*bore;//Declaring variable to square bore size.
-
 var result=[(pie*bore2)*stroke]*cyl//Declaring variable to calculate the displacement with given inputs.
+
+//Display functions
 
 alert("The displacement of your engine is "+ Math.round(result) +" cubic inches.")//Adding function to display result in an alert.
 
