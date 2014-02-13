@@ -8,8 +8,8 @@ var height=prompt("please input the height of the room in feet.");//Prompting us
 var sheet=[ 32,36,40,48 ];//Setting up an array for the surface area of sheet sizes.
 var room=2*length*width+2*width*height+2*length*height;//calculating the surface area of the room using the measurements given by the user.
 var result1=room/sheet[0];//Calculating the number of sheets needed using 4'x8' sheets.
-var result2=room/sheet[1];
-var result3=room/sheet[2];
+var result2=room/sheet[1];//Calculating the number of sheets needed using 4'x9' sheets.
+var result3=room/sheet[2];//Calculating the number of sheets needed using
 var result4=room/sheet[3];
 
 //Dis[lay Functions
