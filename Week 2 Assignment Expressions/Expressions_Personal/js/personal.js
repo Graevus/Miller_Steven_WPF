@@ -15,3 +15,4 @@ var result=[(pie*bore2)*stroke]*cyl//Declaring variable to calculate the displac
 //alert("The displacement of your engine is "+ Math.round(result) +" cubic inches.")//Adding function to display result in an alert.//I added this for "cool" factor, but disabled it incase you didn't want it.
 
 console.log ("The displacement of your engine is "+ Math.round(result) +" cubic inches.");//displaying the result in the console for the user to see.
+//Signing this because I need one more commit and can't think of anything I need to change.
