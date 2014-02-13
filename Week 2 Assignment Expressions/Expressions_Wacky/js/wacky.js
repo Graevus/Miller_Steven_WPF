@@ -9,8 +9,8 @@ var sheet=[ 32,36,40,48 ];//Setting up an array for the surface area of sheet si
 var room=2*length*width+2*width*height+2*length*height;//calculating the surface area of the room using the measurements given by the user.
 var result1=room/sheet[0];//Calculating the number of sheets needed using 4'x8' sheets.
 var result2=room/sheet[1];//Calculating the number of sheets needed using 4'x9' sheets.
-var result3=room/sheet[2];//Calculating the number of sheets needed using
-var result4=room/sheet[3];
+var result3=room/sheet[2];//Calculating the number of sheets needed using 4'x10' sheets.
+var result4=room/sheet[3];//Calculating the number of sheets needed using
 
 //Dis[lay Functions
 console. log("You will need "+Math.round(result1)+" 4'x8' sheets.\nYou will need "+Math.round(result2)+" 4'x9' sheets.\nYou will need "+Math.round(result3)+" 4'x10' sheets.\nYou will need "+Math.round(result4)+" 4'x12' sheets.");
