@@ -10,7 +10,7 @@ var room=2*length*width+2*width*height+2*length*height;//calculating the surface
 var result1=room/sheet[0];//Calculating the number of sheets needed using 4'x8' sheets.
 var result2=room/sheet[1];//Calculating the number of sheets needed using 4'x9' sheets.
 var result3=room/sheet[2];//Calculating the number of sheets needed using 4'x10' sheets.
-var result4=room/sheet[3];//Calculating the number of sheets needed using
+var result4=room/sheet[3];//Calculating the number of sheets needed using 4'x12' sheets.
 
 //Dis[lay Functions
 console. log("You will need "+Math.round(result1)+" 4'x8' sheets.\nYou will need "+Math.round(result2)+" 4'x9' sheets.\nYou will need "+Math.round(result3)+" 4'x10' sheets.\nYou will need "+Math.round(result4)+" 4'x12' sheets.");
