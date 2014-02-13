@@ -1,8 +1,5 @@
-//This script should calculate the number of bottle of paint used in a year by a miniature painter.
+//We will calculate the estimated number of cans of paint needed to paint a room. Given each can is about 3 gallons
 
-//Variable will be declared here
 
-var mini=prompt()
-var paint=prompt("please input bottle size")
-var mini=prompt()
+//Declaring variables
 
