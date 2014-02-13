@@ -3,7 +3,7 @@
 //Declaring my variables
 
 var length=prompt("Please indicate the length of the room in feet.");//Prompting user for length of room in feet.
-var width=prompt("Please input the width of the room in feet.");//Prompting user for width of room in feet.
+var width=prompt("Please define the width of the room in feet.");//Prompting user for width of room in feet.
 var height=prompt("please input the height of the room in feet.");//Prompting user for height of room in feet.
 var sheet=[ 32,36,40,48 ];//Setting up an array for the surface area of sheet sizes.
 
