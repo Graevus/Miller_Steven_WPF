@@ -3,3 +3,8 @@
 
 //Declaring variables
 
+var length=prompt("Please enter the length of the room in inches.");
+var width=prompt("Please enter the width of the room in inches");
+var paint=prompt("Please enter the size of the paint can in gallons.");
+
+//Calculating the sq/ft of the room.
