@@ -1,4 +1,4 @@
-//Displaying the number of padded sheets and size of sheet to cover surface area of a given room
+//Displaying the number of padded sheets and size of sheet to cover surface area of a given room.
 
 //Declaring my variables
 
@@ -15,6 +15,8 @@ var result3=room/sheet[2];//Calculating the number of sheets needed using 4'x10'
 var result4=room/sheet[3];//Calculating the number of sheets needed using 4'x12' sheets.
 
 //Display Functions
+
+//alert("You will need "+Math.round(result1)+" 4'x8' sheets.\nYou will need "+Math.round(result2)+" 4'x9' sheets.\nYou will need "+Math.round(result3)+" 4'x10' sheets.\nYou will need "+Math.round(result4)+" 4'x12' sheets.");//My alret display function, dunno why I just like adding it.
 
 console. log("You will need "+Math.round(result1)+" 4'x8' sheets.\nYou will need "+Math.round(result2)+" 4'x9' sheets.\nYou will need "+Math.round(result3)+" 4'x10' sheets.\nYou will need "+Math.round(result4)+" 4'x12' sheets.");//Displaying the answer on the console for the user.
 
