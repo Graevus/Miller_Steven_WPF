@@ -5,8 +5,16 @@
 
 var lMileage = prompt("What was the mileage of the vehicle at last oil change?");
     if (lMileage == ("")){var lMileage = prompt ("Determine the mileage of last oil change here.");}
-var
+var cMileage = prompt("What was the mileage of the vehicle at last oil change?");
+    if (cMileage == ("")){var cMileage = prompt ("Determine the mileage of last oil change here.");}
+var oil = 3000
+
+var oilC = (lMileage + oil);
+
+
 
 //Display functions
 
-console.log ("");//displaying the result in the console for the user to see.
+
+if (oilC >= cMileage)console.log("You need to get an oil change.")//If statement is true prints to console "you may release the prisoner."
+else console.log("You do not need an oil change.");//If the above statement is false then prints to console "You may not release the prisoner."
