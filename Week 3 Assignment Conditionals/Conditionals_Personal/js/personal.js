@@ -16,5 +16,5 @@ var oilC = (lMileage + oil);
 //Display functions
 
 
-if (oilC >= cMileage)console.log("You need to get an oil change.")//If statement is true prints to console "you may release the prisoner."
+if (oilC <= cMileage)console.log("You need to get an oil change.")//If statement is true prints to console "you may release the prisoner."
 else console.log("You do not need an oil change.");//If the above statement is false then prints to console "You may not release the prisoner."
