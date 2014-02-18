@@ -19,5 +19,5 @@ var oilC = (lMileage + oil);//Number of miles the average oil change lasts.
 
 
 if (oilC == cMileage)console.log("You need to get an oil change, but your safe to put it off for a few days.")//If statement is true prints to console "You need to get an oil change."
-    else if (oilC < cMileage)console.log("You do not need an oil change.");//If the above statement is false then prints to console "You do not need an oil     change."
-else console.log("You could use an oil change, but you can put it off a few days too.")//If the statement is true then print to console "You could use an oil change, but you can put it off a few days too."
+    else if (oilC < cMileage)console.log("You do not need an oil change.");//If the  statement is true then prints to console "You do not need an oil     change." but only if previous statement is false.
+else console.log("You could use an oil change, but you can put it off a few days too.")//If the previous two statements are false then print to console "You could use an oil change, but you can put it off a few days too."
