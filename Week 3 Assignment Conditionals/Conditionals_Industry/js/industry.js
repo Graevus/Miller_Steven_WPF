@@ -14,7 +14,6 @@ var date = prompt("What is today's date?");//Prompting for the current day.
 var nRelease = (sRelease - goodB);//Calculating the release date of the prisoner
 
 //Display functions.
-if (nRelease <= date);
-    console.log("You may release the prisoner.");//Prints the result variable to the console.
-else console.log("You may not release the prisoner.");
+if (nRelease <= date)console.log("You may release the prisoner.")
+else console.log("You may not release the prisoner.");//If the above statement is false then prints to console "You may not release the prisoner."
 
