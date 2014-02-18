@@ -3,11 +3,11 @@
 
 //Variable will be declared here
 
-var lMileage = prompt("What was the mileage of the vehicle at last oil change?");
-    if (lMileage == ("")){var lMileage = prompt ("Determine the mileage of last oil change here.");}
+var lMileage = prompt("What was the mileage of the vehicle at last oil change?");//Asking for mileage of vehicle on last iol change.
+    if (lMileage == ("")){var lMileage = prompt ("Determine the mileage of last oil change here.");}//Asking for mileage again if user left prompt blank.
 
-var cMileage = prompt("What is the current mileage of the vehicle?");
-    if (cMileage == ("")){var cMileage = prompt ("Determine the mileage of the vehicle.");}
+var cMileage = prompt("What is the current mileage of the vehicle?");//Asking for current mileage of vehicle.
+    if (cMileage == ("")){var cMileage = prompt ("Determine the mileage of the vehicle.");}//Asking for mileage again if user left prompt blank.
 
 var oil = 3000//Number of miles the average oil change lasts.
 
