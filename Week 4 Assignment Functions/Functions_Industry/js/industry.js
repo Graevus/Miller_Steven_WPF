@@ -17,19 +17,19 @@ var weekFour  = prompt("How many incident reports in week four? ");//Prompting u
 
 
 
-var total = result(weekOne,weekTwo,weekThree,weekFour);
+var total = result(weekOne,weekTwo,weekThree,weekFour);//Invoking the result function.
 
 function result (a,b,c,d){
-    var add = Number(a)+Number(b)+Number(c)+Number(d);
+    var add = Number(a)+Number(b)+Number(c)+Number(d);//The reult function which calculates the number of incident reports for the month.
     return add;
 
 }
 var calc = function(a,b){
-    var divide = a/b;
+    var divide = a/b;//Anonymous function to calculate the average number of reports.
     return divide;
 
 }
-var average = calc(total,4);
+var average = calc(total,4);//Invoking the anonymous function.
 
 
-console.log("You have had "+total+" incidents this month. The is an average of "+average+" incidents per week.");
+console.log("You have had "+total+" incidents this month. The is an average of "+average+" incidents per week.");//Displaying the results to the console.
