@@ -1,6 +1,7 @@
 
 //Steven Miller
 //02/26/14
+//Functions - Industry
 
 var weekOne  = prompt("How many incident reports in week one? ");
     if (weekOne == ("")){var weekOne = prompt ("How many incident reports in week one?");}
@@ -23,5 +24,12 @@ function result (a,b,c,d){
     return add;
 
 }
+var calc = function(a,b){
+    var divide = a/b;
+    return divide;
 
-console.log(total);
+}
+var average = calc(total,4);
+
+
+console.log("You have had "+total+"incidents this month. The is an average of "+average+" incidents per week.");
