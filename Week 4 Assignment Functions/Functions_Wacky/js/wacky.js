@@ -6,8 +6,8 @@ var ppl  = prompt("Are there other people around?/n" +
     "Answer yes or no, no caps.");//Prompting user for answer to question.
     if (ppl == ""){var ppl = prompt ("Are there other people around?/n" +
         " Answer yes or no, no caps.");}//Repeating the prompt in case it was left blank the first time.
-    else if (ppl == "no"){var ppl = 0;}
-    else if (ppl =="yes"){var ppl = 1;}
+    else if (ppl == "no"){var ppl = 0;}//Declaring the value of result for later purpose.
+    else if (ppl =="yes"){var ppl = 1;}//Declaring the value of result for later purpose.
 
 var funny = prompt("Would it be funny?/n" +
     "yes or no, no caps.");//Prompting user for answer to question.
