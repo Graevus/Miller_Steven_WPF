@@ -17,9 +17,9 @@ var funny = prompt("Would it be funny?/n" +
     else if (funny == "yes"){var funny = 1;}//Declaring the value of result for later purpose.
 
 var calc=function(a,b){
-    var add =Number(a)+Number(b);
+    var add =Number(a)+Number(b);//Function to calculate the result of the previous variables added together.
     return add;
 }
-var result = calc(ppl,funny);
+var result = calc(ppl,funny);//Invoking the previous function.
 
     (result==2)? console.log("Yes, hit them with the pie!"):console.log("Better wait for when it would be funnier.");
