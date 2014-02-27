@@ -11,6 +11,11 @@ var funny = prompt("Would it be funny? yes or no, no caps.");
     if (funny == "yes"){var funny = 1}
     else if (funny == "no"){var funny = 0}
     else if (funny == ""){var funny = prompt ("Would it be funny? yes or no, no caps.");}
-var result = Number(ppl)+Number(funny);
+
+var calc=function(a,b){
+    var add =Number(a)+Number(b);
+    return add;
+}
+var result = calc(ppl,funny);
 
     (result==2)? console.log("yes"):console.log("no");
