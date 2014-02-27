@@ -9,10 +9,10 @@ var mile  = prompt("How many miles do you average per tank of fuel?");//Promptin
     if (mile == ("")){var mile = prompt ("How many miles do you average per tank of fuel?");}//Repeating the prompt in case the prompt was left blank the first time.
 
 var mpg = function(a,b){
-    var calc = a/b;
+    var calc = a/b;//anonymous function to calculate the average miles per gallon.
     return calc;
 
 }
-var result = mpg(mile,tank);
+var result = mpg(mile,tank);//Invoking the function.
 
-console.log("You are getting on average "+result+" mpg.")
+console.log("You are getting on average "+result+" mpg.")//Displaying the result to the console.
