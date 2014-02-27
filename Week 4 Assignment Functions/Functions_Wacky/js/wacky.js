@@ -22,4 +22,4 @@ var calc=function(a,b){
 }
 var result = calc(ppl,funny);//Invoking the previous function.
 
-    (result==2)? console.log("Yes, hit them with the pie!"):console.log("Better wait for when it would be funnier.");
+    (result==2)? console.log("Yes, hit them with the pie!"):console.log("Better wait for when it would be funnier.");//Displaying the result based on if the answer to the function is equal to 2 (the maximum possible answer) or not.
