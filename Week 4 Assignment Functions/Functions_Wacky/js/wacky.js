@@ -3,16 +3,16 @@
 //Functions - Wacky
 
 var ppl  = prompt("Are there other people around?/n" +
-    " Answer yes or no, no caps.");//Prompting user for the size of gas tank.
+    "Answer yes or no, no caps.");//Prompting user for answer to question.
     if (ppl == ""){var ppl = prompt ("Are there other people around?/n" +
-        " Answer yes or no, no caps.");}
+        " Answer yes or no, no caps.");}//Repeating the prompt in case it was left blank the first time.
     else if (ppl == "no"){var ppl = 0;}
     else if (ppl =="yes"){var ppl = 1;}
 
 var funny = prompt("Would it be funny?/n" +
-    "yes or no, no caps.");
+    "yes or no, no caps.");//Prompting user for answer to question.
     if (funny == ""){var funny = prompt ("Would it be funny? /n" +
-        "yes or no, no caps.");}
+        "yes or no, no caps.");}//Repeating the prompt in case it was left blank the first time.
     else if (funny == "no"){var funny = 0;}
     else if (funny == "yes"){var funny = 1;}
 
